@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>images/frame_10.png</file>
+        <file>images/frame_11.png</file>
+        <file>images/frame_12.png</file>
+        <file>images/frame_13.png</file>
+        <file>images/frame_14.png</file>
+        <file>images/frame_15.png</file>
+        <file>images/frame_16.png</file>
+        <file>images/frame_17.png</file>
+        <file>images/frame_18.png</file>
+        <file>images/frame_19.png</file>
+        <file>images/frame_20.png</file>
+        <file>images/frame_21.png</file>
+        <file>images/frame_22.png</file>
+        <file>images/frame_23.png</file>
+        <file>images/frame_00.png</file>
+        <file>images/frame_01.png</file>
+        <file>images/frame_02.png</file>
+        <file>images/frame_03.png</file>
+        <file>images/frame_04.png</file>
+        <file>images/frame_05.png</file>
+        <file>images/frame_06.png</file>
+        <file>images/frame_07.png</file>
+        <file>images/frame_08.png</file>
+        <file>images/frame_09.png</file>
+    </qresource>
+</RCC>
