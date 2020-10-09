@@ -13,6 +13,8 @@ int main(int argc, char *argv[])
    ImageSender sender;
    ImageProvider* provider = new ImageProvider;
 
+   QObject::connect(&sender, &ImageSender::imageReady, provider, &ImageProvider::setImage);
+
    QQmlApplicationEngine engine;
    engine.rootContext()->setContextProperty("imageProvider", provider);
    engine.addImageProvider("stream", provider);
@@ -24,7 +26,6 @@ int main(int argc, char *argv[])
             QCoreApplication::exit(-1);
       }, Qt::QueuedConnection);
 
-   QObject::connect(&sender, &ImageSender::imageReady, provider, &ImageProvider::setImage);
    sender.start(60);
    engine.load(url);
 

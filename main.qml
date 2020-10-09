@@ -16,7 +16,7 @@ Window {
     Image {
         id: image
 
-        readonly property string providerSource: "image://stream/image";
+        readonly property string providerSource: "image://stream/";
 
         anchors.fill: parent
         fillMode: Image.PreserveAspectFit
